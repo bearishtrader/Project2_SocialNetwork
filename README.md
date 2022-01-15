@@ -14,7 +14,7 @@
   - H2 in-memory database for day-to-day development and testing and Postgres DBMS for deployment<br/>
   - JUnit and Mockito for unit and integration testing<br/>
   - JPATest for repository integration testing<br/>
-  - MVCTest for Web API endpoint integration testing<br/>
+  - MVCTest and Mockito for Web API controller endpoint integration testing<br/>
   - Selenium web automation tool with Cucumber/Gherkin BDD (Behavior Driven Development) framework for end-to-end testing.<br/>
   - Spring Mail with Amazon SES (Simple Email Service) used to send password reset e-mail<br/>
   - Spring Security Crypto stand-alone module (e.g. spring-security-crypto) for password encryption<br/>
