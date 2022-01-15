@@ -3,7 +3,7 @@
 
   Social network app with Angular front-end and Spring Boot/MVC/Data back-end.
 
-  Users can register, login, edit/update their prodile and post text, images or YouTube video links in addition to commenting on and liking each others posts. 
+  Users can register, login, edit/update their profile and post text, images or YouTube video links in addition to commenting on and liking each others posts. 
   There is a password reset feature via e-mail (Spring Mail) in the case of forgotten passwords and password encryption (Spring Security Crypto stand-alone module).
 
 <h3>Technologies Used</h3>
