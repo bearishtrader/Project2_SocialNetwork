@@ -7,18 +7,35 @@
   There is a password reset feature via e-mail (Spring Mail) in the case of forgotten passwords and password encryption (Spring Security Crypto stand-alone module).
 
 <h3>Technologies Used</h3>
-  - Java with Spring Boot/MVC/Data/Mail for back end<br/>
-  - Angular/Typescript for front end<br/>
-  - Frontcontroller design pattern with JPA repositories for the DAO (Data Access Object) layer with a Service layer.<br/>
-  - The JPA (Java Persistence API) has annotations which are used within the data object models to describe entity relationships and how the entities should be bound to the underlying database tables, thus no explicit SQL queries were required as with Project 1's DAO layer.<br/>
-  - H2 in-memory database for day-to-day development and testing and Postgres DBMS for deployment<br/>
-  - JUnit and Mockito for unit and integration testing<br/>
-  - JPATest for repository integration testing<br/>
-  - MVCTest and Mockito for Web API controller endpoint integration testing<br/>
-  - Selenium web automation tool with Cucumber/Gherkin BDD (Behavior Driven Development) framework for end-to-end testing.<br/>
-  - Spring Mail with Amazon SES (Simple Email Service) used to send password reset e-mail<br/>
-  - Spring Security Crypto stand-alone module (e.g. spring-security-crypto) for password encryption<br/>
-  - Deployed to AWS EC2 instance via Maven build<br/>
+    Java with Spring Boot/MVC/Data/Mail for back end<br/>
+    Angular/Typescript for front end<br/>
+    Frontcontroller design pattern with JPA repositories for the DAO (Data Access Object) layer with a Service layer.<br/>
+    The JPA (Java Persistence API) has annotations which are used within the data object models to describe entity relationships and how the entities should be bound to the underlying database tables, thus no explicit SQL queries were required as with Project 1's DAO layer.<br/>
+    H2 in-memory database for day-to-day development and testing and Postgres DBMS for deployment<br/>
+    JUnit and Mockito for unit and integration testing<br/>
+    JPATest for repository integration testing<br/>
+    MVCTest and Mockito for Web API controller endpoint integration testing<br/>
+    Selenium web automation tool with Cucumber/Gherkin BDD (Behavior Driven Development) framework for end-to-end testing.<br/>
+    Spring Mail with Amazon SES (Simple Email Service) used to send password reset e-mail<br/>
+    Spring Security Crypto stand-alone module (e.g. spring-security-crypto) for password encryption<br/>
+    Deployed to AWS EC2 instance via Maven build<br/>
+
+<h3>Getting Started</h3>
+mkdir project2<br/>
+cd project2<br/>
+git clone https://github.com/bearishtrader/project2-backend.git<br/>
+cd project2-backend<br/>
+mvn validate<br/>
+mvn compile<br/>
+mvn test<br/>
+mvn package<br/>
+nohup java -jar ./target/project2-backend-{x.y.z}-SNAPSHOT.jar &<br/>
+<br/>
+cd ..<br/>
+git clone https://github.com/bearishtrader/project2-frontend.git<br/>
+cd project2-frontend<br/>
+npm install<br/>
+ng serve -o <br/>
 
 <h3>Contributors</h3>
   Brady Westveer (https://github.com/bradywestveer-revature)<br/>
